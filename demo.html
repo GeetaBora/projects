@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <body>
+        <input id="myinput">
+        <button onclick="myfunction()">click </button>
+        <p id="para"></p>
+        <script>
+            function myfunction(){
+                var contry= document.getElementById("myinput").value;
+                var text;
+                switch(contry){
+                    case"india":
+                    text="abc"
+                }
+                document.getElementById("para").innerHTML=text;
+                console.log(text);
+            }
+        </script>
+    </body>
+</html>
